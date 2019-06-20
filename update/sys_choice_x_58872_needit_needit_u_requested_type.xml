@@ -5,7 +5,7 @@
             <element>u_requested_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>HR</label>
+            <label>facilities</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>0</sequence>
@@ -13,29 +13,10 @@
             <sys_created_on>2019-06-19 08:45:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f46284cbdb0233009e689b81ca9619d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-19 08:45:05</sys_updated_on>
-            <value>hr</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_requested_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>facilities</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-19 08:45:05</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>746284cbdb0233009e689b81ca9619da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-19 08:45:05</sys_updated_on>
+            <sys_updated_on>2019-06-20 08:05:11</sys_updated_on>
             <value>facilities</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -46,15 +27,15 @@
             <label>legal</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
-            <sequence>2</sequence>
+            <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-06-19 08:45:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>306284cbdb0233009e689b81ca9619dc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-19 08:45:05</sys_updated_on>
+            <sys_updated_on>2019-06-20 08:05:11</sys_updated_on>
             <value>legal</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -62,7 +43,26 @@
             <element>u_requested_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>your Dept</label>
+            <label>hr</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-19 08:45:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f46284cbdb0233009e689b81ca9619d8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-20 08:05:11</sys_updated_on>
+            <value>hr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_requested_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>your dept</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>3</sequence>
@@ -71,9 +71,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f86284cbdb0233009e689b81ca9619dd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-19 08:45:05</sys_updated_on>
+            <sys_updated_on>2019-06-20 08:05:11</sys_updated_on>
             <value>your dept</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

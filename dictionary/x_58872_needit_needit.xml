@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="7" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="3" default="hr 1" label="what Needed" mandatory="true" max_length="40" name="u_needed" type="string">
             <choice>
                 <element inactive_on_update="false" label="HR 1" sequence="0" value="hr 1"/>
@@ -10,8 +10,10 @@
                 <element inactive_on_update="false" label="Legal 2" sequence="5" value="legal 2"/>
                 <element inactive_on_update="false" label="Your Dept 1" sequence="6" value="your dept 1"/>
                 <element inactive_on_update="false" label="Your Dept 2" sequence="7" value="your dept 2"/>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Other" mandatory="true" max_length="40" name="u_other" type="string"/>
         <element choice="3" label="Requested for" mandatory="true" max_length="32" name="u_requested" reference="sys_user" type="reference">
             <choice>
                 <element inactive_on_update="false" label="HR" sequence="0" value="hr"/>
@@ -20,12 +22,12 @@
                 <element inactive_on_update="false" label="Your Dept" sequence="3" value="your dept"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="hr" label="Requested Type" mandatory="true" max_length="40" name="u_requested_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="facilities" label="Request Type" mandatory="true" max_length="40" name="u_requested_type" type="string">
             <choice>
-                <element inactive_on_update="false" label="HR" sequence="0" value="hr"/>
-                <element inactive_on_update="false" label="facilities" sequence="1" value="facilities"/>
-                <element inactive_on_update="false" label="legal" sequence="2" value="legal"/>
-                <element inactive_on_update="false" label="your Dept" sequence="3" value="your dept"/>
+                <element inactive_on_update="false" label="facilities" sequence="0" value="facilities"/>
+                <element inactive_on_update="false" label="legal" sequence="1" value="legal"/>
+                <element inactive_on_update="false" label="hr" sequence="2" value="hr"/>
+                <element inactive_on_update="false" label="your dept" sequence="3" value="your dept"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type" max_length="40" name="u_request_type" type="string">
